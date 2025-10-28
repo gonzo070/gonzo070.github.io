@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Туры - Gonzo070</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .project-card {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            text-decoration: none;
+            color: inherit;
+            transition: transform 0.3s;
+        }
+        .project-card:hover {
+            transform: translateY(-5px);
+        }
+        .project-image {
+            width: 100%;
+            height: 200px;
+            background-color: #ddd;
+            border-radius: 5px;
+            margin-bottom: 15px;
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🚀 Мои 3D Туры</h1>
+        <p>Интерактивные виртуальные туры по объектам недвижимости</p>
+    </div>
+
+    <div class="projects">
+        <!-- Пример карточки тура -->
+        <a href="https://gonzo070.github.io/gorky-chan-tour/" class="project-card" target="_blank">
+            <div class="project-image" style="background-image: url('https://via.placeholder.com/300x200?text=Горький+Чан');"></div>
+            <h3>Горький Чан</h3>
+            <p>Ресторанный комплекс • Июнь 2024</p>
+        </a>
+
+        <!-- Добавьте другие туры по аналогии -->
+        <a href="#" class="project-card" target="_blank">
+            <div class="project-image" style="background-image: url('https://via.placeholder.com/300x200?text=Новый+Тур');"></div>
+            <h3>Название следующего тура</h3>
+            <p>Описание • Дата</p>
+        </a>
+
+        <!-- Шаблон для будущих туров -->
+        <!-- 
+        <a href="ССЫЛКА_НА_ТУР" class="project-card" target="_blank">
+            <div class="project-image" style="background-image: url('ПРЕВЬЮ_ИЗОБРАЖЕНИЕ');"></div>
+            <h3>НАЗВАНИЕ ТУРА</h3>
+            <p>ОПИСАНИЕ • ДАТА</p>
+        </a>
+        -->
+    </div>
+
+    <footer style="text-align: center; margin-top: 50px; color: #666;">
+        <p>© 2024 Gonzo070 - 3D туры и виртуальные туры</p>
+    </footer>
+</body>
+</html>
